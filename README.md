@@ -1,5 +1,7 @@
 # React Components
 
+*WHY IS THIS A "LAB"?*
+
 ## Overview
 
 We'll introduce components, explain why they're important, and look at a few examples.
@@ -55,7 +57,7 @@ class Comment extends React.Component {
     return (
       <div className="comment">
         {this.props.content}
-      </div>  
+      </div>
     )
   }
 }
